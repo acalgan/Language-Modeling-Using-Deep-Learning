@@ -1,5 +1,5 @@
 # Language-Modeling-Using-Deep-Learning
 
-| Year          | Architecture  | Paper |
-| ------------- | ------------- | ------------- |
-| 2003          | FFNN LM       | https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf  |
+| Year          | Architecture  | Title         | Link |
+| ------------- | ------------- | ------------- | ------------- |
+| 2003          | FFNN LM       | A Neural Probabilistic Language Model | https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf  |
