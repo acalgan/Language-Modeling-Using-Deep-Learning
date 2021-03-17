@@ -2,4 +2,4 @@
 
 | Year          | Architecture  | Title         | Link |
 | ------------- | ------------- | ------------- | ------------- |
-| 2003          | FFNN LM       | A Neural Probabilistic Language Model | https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf  |
+| 2003          | FFNN LM       | A Neural Probabilistic Language Model | [link](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)  |
