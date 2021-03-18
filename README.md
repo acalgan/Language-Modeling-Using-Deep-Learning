@@ -1,5 +1,7 @@
-# Language-Modeling-Using-Deep-Learning
+# Language Modeling Using Deep Learning
 
 | Year          | Architecture  | Title         | Link |
 | ------------- | ------------- | ------------- | ------------- |
 | 2003          | FFNN LM       | A Neural Probabilistic Language Model | [link](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)  |
+| 2010          | RNN       | Recurrent neural network based language model | [link](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)  |
+| 2012          | LSTM       | LSTM Neural Networks for Language Modeling | [link](http://www-i6.informatik.rwth-aachen.de/publications/download/820/Sundermeyer-2012.pdf)  |
