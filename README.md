@@ -20,6 +20,6 @@ LSTM = Long Short-Term Memory
 
 RNN = Recurrent Neural Network
 
-###### Word representation
+## Word representation
 
-###### Predictability
+## Predictability
