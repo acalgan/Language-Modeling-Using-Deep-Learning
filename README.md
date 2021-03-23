@@ -12,14 +12,11 @@ Language modeling aims to assign a probability to the next word in a sentence an
 | 2010          | RNN           | Recurrent neural network based language model | [link](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)  |
 | 2012          | LSTM          | LSTM Neural Networks for Language Modeling | [link](http://www-i6.informatik.rwth-aachen.de/publications/download/820/Sundermeyer-2012.pdf)  |
 
-FFNN = Feed Forward Neural Network
+FFNN = Feed Forward Neural Network \
+GRU = Gated Recurrent Units \
+LSTM = Long Short-Term Memory \
+RNN = Recurrent Neural Network \
 
-GRU = Gated Recurrent Units
-
-LSTM = Long Short-Term Memory
-
-RNN = Recurrent Neural Network
-
-## Word representation
+## Word Representation
 
 ## Predictability
