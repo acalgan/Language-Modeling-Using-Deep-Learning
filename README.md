@@ -34,7 +34,7 @@ Word2Vec [(Mikolov, Sutskever, et al., 2013)](https://proceedings.neurips.cc/pap
 
 ![Alt text](cbow-skip.PNG)
 <div align="center">
-[photo ref](https://arxiv.org/pdf/1309.4168v1.pdf)
+Figure reference: (https://arxiv.org/pdf/1309.4168v1.pdf)
 </div>
 
 #### Continous Bag of Words (CBOW)
