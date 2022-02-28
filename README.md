@@ -31,7 +31,8 @@ RNN = Recurrent Neural Network
 
 ### Word2Vec
 Word2Vec [(Mikolov, Sutskever, et al., 2013)](https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) implementation has achieved to produce continuous word vector for every word in the vocabulary. The method has a set of two models, Continuous Bag of Words (CBOW) and Skip-gram models.
-![Alt text](cbow-skip.PNG "[photo ref](https://arxiv.org/pdf/1309.4168v1.pdf)")
+![Alt text](cbow-skip.PNG)
+[photo ref](https://arxiv.org/pdf/1309.4168v1.pdf)
 
 #### Continous Bag of Words (CBOW)
 CBOW predicts the target word using surrounding words(context).
