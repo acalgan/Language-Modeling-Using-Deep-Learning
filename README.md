@@ -2,9 +2,9 @@
 
 This repository presents a collection of papers about language modeling using Neural Networks. 
 
-Language modeling aims to assign a probability to the next word in a sentence and it is very important for the field of Natural Language Processing (NLP). Although each NLP application has a different purpose, majority of the modern NLP applications build an artificial language model as a first step. After obtaining a trained (LM), it can be used in a variety of taks such as machine translation, speech recognition, question answering, handwriting recognition, text generation.
+Language modeling aims to assign a probability to the next word in a sentence and it is very important for the field of Natural Language Processing (NLP). Although each NLP application has a different purpose, the majority of modern NLP applications build an artificial language model as a first step. After obtaining a trained (LM), it can be used in a variety of tasks such as machine translation, speech recognition, question answering, handwriting recognition, text generation.
 
-Most of the below papers/topics are summarized in the master's thesis study[1]. The thesis aimed to model the natural language (Turkish) using the LSTM network. A trained language model was used to perform some NLP tasks such as sentence generation and predicting words in a sentence. The main motivation of this research was to analyze the correlation between human and language model's word predictions in the same test sentences. The same LSTM architecture was then trained for English. It is used to produce predictability scores for each words in scope of [CMCL 2021 Shared Task](https://cmclorg.github.io/shared_task). These scores were used as an input to another LSTM model to predict to eye movements of a human reader. Details can be found in the paper[2].
+Most of the below papers/topics are summarized in the master's thesis study[1]. The thesis aimed to model the natural language (Turkish) using the LSTM network. A trained language model was used to perform some NLP tasks such as sentence generation and predicting words in a sentence. The main motivation of this research was to analyze the correlation between human and language model's word predictions in the same test sentences. The same LSTM architecture was then trained for English. It is used to produce predictability scores for each word in the scope of [CMCL 2021 Shared Task](https://cmclorg.github.io/shared_task). These scores were used as an input to another LSTM model to predict to eye movements of a human reader. Details can be found in the paper[2].
 
 1. Algan, A. C. (2021). Prediction of words in Turkish sentences by LSTM-based language modeling (Master's thesis, Middle East Technical University).
 2. Balkoca, A., Algan, A., Acartürk, C., & Çöltekin, Ç. (2021, June). Team ReadMe at CMCL 2021 Shared Task: Predicting Human Reading Patterns by Traditional Oculomotor Control Models and Machine Learning. In Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics (pp. 134-140).
@@ -20,12 +20,20 @@ Most of the below papers/topics are summarized in the master's thesis study[1]. 
 | 2010          | RNN           | Recurrent neural network based language model | [link](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)  |
 | 2010          | RNN           | Extensions of recurrent neural network language model | [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5947611)  |
 | 2012          | LSTM          | LSTM Neural Networks for Language Modeling | [link](http://www-i6.informatik.rwth-aachen.de/publications/download/820/Sundermeyer-2012.pdf)  |
-| 2016          | LSTM and GRU          |  LSTM, GRU, highway and a bit of attention: an empirical overview for language modeling in speech recognition | [link](https://publications.rwth-aachen.de/record/671147/files/671147.pdf)  |
+| 2016          | LSTM and GRU          |  Convolutional Neural Network Language Models| [link](https://aclanthology.org/D16-1123.pdf)  |
+| 2016          | CNN          |  LSTM, GRU, highway and a bit of attention: an empirical overview for language modeling in speech recognition | [link](https://publications.rwth-aachen.de/record/671147/files/671147.pdf)  |
+| 2017          | GCNN          |  Language Modeling with Gated Convolutional Networks| [link](https://arxiv.org/pdf/1612.08083.pdf)  |
+| 2017          | Transformer          |  Attention Is All You Need | [link](https://arxiv.org/pdf/1706.03762.pdf)  |
 
+
+CNN = Convolutional Neural Network\
 FFNN = Feed Forward Neural Network \
+GCNN = Gated Convolutional Neural Network
 GRU = Gated Recurrent Units [(Chung et al., 2014)](https://arxiv.org/pdf/1412.3555.pdf)\
 LSTM = Long Short-Term Memory [(Hochreiter & Schmidhuber, 1997)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.676.4320&rep=rep1&type=pdf) \
 RNN = Recurrent Neural Network 
+
+### Transformer
 
 ## Word Representation
 
@@ -87,6 +95,7 @@ of word meaning and world knowledge in language comprehension. science,
 304(5669), 438–441.](https://pure.mpg.de/rest/items/item_60455_6/component/file_527079/content)
 
 ## Measurements
+Cross-Entropy \
 Perplexity \
 Word error rate (WER)\
 BLEU score\
